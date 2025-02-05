@@ -44,10 +44,6 @@ Find-Sensitive-File is a Bash script designed to search for potentially sensitiv
 
 This script is intended for security auditing and educational purposes only. Running it on unauthorized systems without permission may violate legal and ethical guidelines.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contribution
 
 Feel free to contribute by submitting issues or pull requests to improve the script.
