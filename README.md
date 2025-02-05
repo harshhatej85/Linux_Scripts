@@ -23,7 +23,7 @@ Find-Sensitive-File is a Bash script designed to search for potentially sensitiv
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Find-Sensitive-File.git
+   git clone https://github.com/harshhatej85/Linux_Scripts/blob/main/find_sensitive_files.sh
    cd Find-Sensitive-File
    ```
 2. **Give execution permissions to the script:**
