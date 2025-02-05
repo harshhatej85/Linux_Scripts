@@ -95,13 +95,23 @@ files=(
 # base directory to start the search
 base_dir="/"
 
-echo "Searching for sensitive files in $base_dir"
+echo -e "\n\033[1;34m=============================\033[0m"
+echo -e "\033[1;32m Searching for sensitive files \033[0m"
+echo -e "\033[1;34m=============================\033[0m\n"
 
 # loop through each file name and use the find command to search 
 for file in "${files[@]}"; do
-  echo "Searching for $file"
-  find "$base_dir" -type f -name "$file" 2>/dev/null
+  results=$(find "$base_dir" -type f -name "$file" 2>/dev/null)
+  
+  if [ -n "$results" ]; then
+    count=$(echo "$results" | wc -l)
+    echo -e "\033[1;33m[+] Found $count file(s) named \"$file\":\033[0m"
+    echo -e "\033[1;36m---------------------------\033[0m"
+    echo "$results"
+    echo -e "\033[1;36m---------------------------\033[0m\n"
+  fi
 done
 
-echo "Search completed."
+echo -e "\n\033[1;32m Search completed. \033[0m"
+
 
