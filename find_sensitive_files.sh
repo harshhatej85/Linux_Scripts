@@ -1,6 +1,3 @@
-#finds all these different sensitive files in linux file system just give it executable permission and run as root owner.
-#You can also add more files in the "files" array. 
-
 #!/bin/bash
 
 # array of file names to search for
@@ -113,5 +110,3 @@ for file in "${files[@]}"; do
 done
 
 echo -e "\n\033[1;32m Search completed. \033[0m"
-
-
