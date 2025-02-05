@@ -32,7 +32,7 @@ Find-Sensitive-File is a Bash script designed to search for potentially sensitiv
    ```
 3. **Run the script:**
    ```bash
-   ./find_sensitive_files.sh
+   bash find_sensitive_files.sh
    ```
 
 ### Customizing the Search
