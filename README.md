@@ -35,6 +35,10 @@ Find-Sensitive-File is a Bash script designed to search for potentially sensitiv
    bash find_sensitive_files.sh
    ```
 
+Screenshot
+
+![2025-02-06_12-37](https://github.com/user-attachments/assets/fe25c8bf-6e8f-42a3-969d-fdfd0230a815)
+
 ### Customizing the Search
 
 - Modify the `files` array in the script to add or remove filenames as needed.
@@ -47,4 +51,6 @@ This script is intended for security auditing and educational purposes only. Run
 ## Contribution
 
 Feel free to contribute by submitting issues or pull requests to improve the script.
+
+
 
